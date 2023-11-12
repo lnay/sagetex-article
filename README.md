@@ -24,14 +24,14 @@ Start by cloning a repository that uses this template. When open in VSCode,
 you should be prompted to reopen in a container. If not, you can do so by
 opening the command palette (Ctrl+Shift+P) and searching for "Reopen in Container".
 
-### GitHub Codespaces
-On the GitHub website, use this template to create a new repository. Then,
-after clicking the "Code" button, select "Open with Codespaces" > "New
-Codespace on main".
-After a few minutes, you should have a working environment in your browser
-hosted in the cloud. The first 60hrs of each month should be free.
+### ~~GitHub Codespaces~~ (Container too big)
+~~On the GitHub website, use this template to create a new repository. Then,~~
+~~after clicking the "Code" button, select "Open with Codespaces" > "New~~
+~~Codespace on main".~~
+~~After a few minutes, you should have a working environment in your browser~~
+~~hosted in the cloud. The first 60hrs of each month should be free.~~
 
-### Installing SageMath/Python Packages (VSCode/Codespaces)
+### Installing SageMath/Python Packages (VSCode ~~/Codespaces~~)
 In [.devcontainer/devcontainer.json], you can uncomment the
 `postCreateCommand` line, and add shell commands to install any packages you
 need.
