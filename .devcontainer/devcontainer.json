@@ -1,0 +1,16 @@
+{
+    "name": "LaTeX+SageTex",
+    "image": "registry.gitlab.com/lukenaylor/latex/sagetex-image:latest",
+    // "postCreateCommand": "",
+    "customizations": {
+        "vscode": {
+            "settings": {
+                "terminal.integrated.shell.linux": "/bin/bash"
+            },
+            "extensions": [
+                "james-yu.latex-workshop",
+                "microsoft.jupyter"
+            ]
+        }
+    },
+}

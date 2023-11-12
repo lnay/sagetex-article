@@ -1,0 +1,9 @@
+**/.ipynb_checkpoints
+**/__pycache__
+*.pdf
+main.*
+!main.tex
+*.py
+*.sage
+preamble*
+!preamble.tex
